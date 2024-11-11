@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+    (function() {
+      emailjs.init("C_yfuad2tPecEhm8C");
+    })();
+    </script>
+    
+</head>
+<body>
+
+            <nav class="navbar">
+             <a href="#" class="logo">portfolio</a>
+                <ul id="sidemenu" class="sideNav">
+                    <li class="active"><a href="#home-info">Home</a></li>
+                    <li><a href="#about-info">About</a></li>
+                    <li><a href="#Skill-info">Skill</a></li>
+                    <li><a href="#project-info">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class='bx bx-x' onclick="closemenu()"></i>
+                </ul>
+                <i class='bx bx-menu' onclick="openmenu()"></i>
+            </nav>
+
+            <section id="home-info" class="home">
+                <div class="home-info">
+                <h1>Afthash Khalid</h1><br>
+                <h2>I'm a Web Developer</h2>
+                <p> provides a strong foundation in computer science and programming.
+                     Currently, I work as a front-end developer, specializing in creating visually appealing and functional user interfaces.
+                     My role likely involves working with HTML, CSS, JavaScript.</p>
+                <div class="sci">
+                    <a href="https://github.com/Afthashkhalid"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/afthash-khalid-a396722b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin' ></i></a>
+                    </div>
+                </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                           <div class="img-item">
+                            <img src=".\image\77ebeada-2eab-4d2c-aa22-e12e22417e67.webp">
+                           </div> 
+                        </div>
+                    </div>
+            </section>
+
+            <section id="about-info" class="about">
+                <div class="about-info">
+                    <h1>About</h1>
+                    <p>I am Muhammed Afthash k,<br> lives in Calicut.<br>I am a Bachelor of Computer Applications (BCA) graducate from Calicut University,<br> I provides a strong foundation in computer science and programming. Currently, I work as a front-end developer, specializing in creating visually appealing and functional user interfaces.My role likely involves working with HTML, CSS, JavaScript, and possibly modern frameworks like React or Angular to ensure seamless user experiences.
+                    </p>
+                </div>
+            </section>
+
+            <section id="Skill-info" class="Skill">
+                <div class="Skill-info">
+                    <h1>Skills</h1>
+                    <p> <h2>Technical Skills</h2><br>
+
+                        Programming Languages:<br> Python, JavaScript, Java.<br>
+                        
+                        frameworks :<br>React, Node.js for JavaScript.<br>
+                        
+                        Tools and Libraries:<br> Git, Docker, TensorFlow, SQL.<br>
+                        
+                        Management:<br> tools like Jira, Trello, agile methodologies Scrum and Kanban.
+                        </p>
+                </div>
+            </section>
+
+            <section id="project-info" class="project">
+                <div class="project-info">
+                    <h1>Projects</h1>
+                    <h3>College Project</h3>
+                    <h5>DNTL</h5>
+                    <p>The "DRIVE NOW" mobile app is a comprehensive solution for combating distracted driving, 
+                        using smartphone sensors and optional eye-tracking to enhance safety. 
+                        Its user-friendly interface, real-time road updates, and machine learning enable adaptability across various driving scenarios.
+                         The app supports drivers, administrators, 
+                         and fleet managers, proving technically and operationally feasible in addressing distracted driving with advanced technology for sustainable road safety.</p>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="container">
+                    <!-- <h1>Contact</h1> -->
+                    <div class="row">
+                    <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p class="emph"><i class='bx bxl-telegram'></i> khalidafthash@gmail.com</p>
+                    <p class="emph"><i class='bx bx-phone-call'></i> 7560874991</p>
+                    <div class="social-icons">
+                    <a href="https://www.facebook.com/share/17bgHw4XAw/"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://www.instagram.com/muhammed_afthash10/profilecard/?igsh=YmZyY291dG9obXQ="><i class='bx bxl-instagram'></i></a>
+                    <a href="https://wa.me/qr/OL3WYJWLD7FEF1"><i class='bx bxl-whatsapp'></i></a>
+                    <!-- <a href=""><i class='bx bxl-telegram' ></i></a> -->
+                     </div>
+                     </div>
+                </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" id="name" placeholder="Your Name" required>
+                            <input type="email" name="email" id="email" placeholder="Your Email" required>
+                            <textarea name="Message"  rows="6" id="message" placeholder="Your Message"></textarea>
+                            <button type="button" class="btn btn2" onclick="sendMail()">Submit</button>
+
+                        </form>
+                    </div>
+                   
+
+                    
+                </div>
+            </section>
+
+
+
+           
+            
+
+        
+   
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
